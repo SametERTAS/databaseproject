@@ -1,0 +1,107 @@
+﻿@model IEnumerable<HastaneOtomasyonu.Models.Kisi>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.adi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.soyadi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.adres)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.cepNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.evNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.isNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TCNo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.dogumTarihi)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.cinsiyet)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.medeniDurum)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.kisiTuru)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.sehir)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.kanGrubu)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.adi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.soyadi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.adres)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.cepNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.evNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.isNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TCNo)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.dogumTarihi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.cinsiyet)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.medeniDurum)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.kisiTuru)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.sehir.adi)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.kanGrubu.adi)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
