@@ -1,25 +1,21 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\samet\\source\\repos\\HastaneOtomasyonu\\HastaneOtomasyonu\\HastaneOtomasyonu.csproj": {}
+    "C:\\Users\\samet\\Source\\Repos\\SametERTAS\\databaseproject\\HastaneOtomasyonu\\HastaneOtomasyonu\\HastaneOtomasyonu.csproj": {}
   },
   "projects": {
-    "C:\\Users\\samet\\source\\repos\\HastaneOtomasyonu\\HastaneOtomasyonu\\HastaneOtomasyonu.csproj": {
+    "C:\\Users\\samet\\Source\\Repos\\SametERTAS\\databaseproject\\HastaneOtomasyonu\\HastaneOtomasyonu\\HastaneOtomasyonu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\samet\\source\\repos\\HastaneOtomasyonu\\HastaneOtomasyonu\\HastaneOtomasyonu.csproj",
+        "projectUniqueName": "C:\\Users\\samet\\Source\\Repos\\SametERTAS\\databaseproject\\HastaneOtomasyonu\\HastaneOtomasyonu\\HastaneOtomasyonu.csproj",
         "projectName": "HastaneOtomasyonu",
-        "projectPath": "C:\\Users\\samet\\source\\repos\\HastaneOtomasyonu\\HastaneOtomasyonu\\HastaneOtomasyonu.csproj",
+        "projectPath": "C:\\Users\\samet\\Source\\Repos\\SametERTAS\\databaseproject\\HastaneOtomasyonu\\HastaneOtomasyonu\\HastaneOtomasyonu.csproj",
         "packagesPath": "C:\\Users\\samet\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\samet\\source\\repos\\HastaneOtomasyonu\\HastaneOtomasyonu\\obj\\",
+        "outputPath": "C:\\Users\\samet\\Source\\Repos\\SametERTAS\\databaseproject\\HastaneOtomasyonu\\HastaneOtomasyonu\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\"
-        ],
         "configFilePaths": [
           "C:\\Users\\samet\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -93,7 +89,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }
